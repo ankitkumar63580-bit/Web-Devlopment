@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Google</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+
+        <a href="#">About</a> |
+        <a href="#">Store</a>
+
+        <span style="float: right;">
+
+            <a href="#">Gmail</a> |
+            <a href="#">Images</a> |
+            <button>Sign in</button>
+
+        </span>
+
+    </header>
+
+
+    <br><br><br><br>
+
+
+    <!-- Main content -->
+
+    <main align="center">
+
+        <h1>
+            <font color="#4285F4">G</font>
+            <font color="#EA4335">o</font>
+            <font color="#FBBC05">o</font>
+            <font color="#4285F4">g</font>
+            <font color="#34A853">l</font>
+            <font color="#EA4335">e</font>
+        </h1>
+
+
+        <!-- Search box -->
+
+        <form onsubmit="searchGoogle(event)">
+
+            <input
+                type="text"
+                id="searchBox"
+                placeholder="Search"
+                size="50"
+                autofocus
+            >
+
+            <br><br>
+
+            <button type="submit">
+                Google Search
+            </button>
+
+            <button
+                type="button"
+                onclick="feelingLucky()"
+            >
+                I'm Feeling Lucky
+            </button>
+
+        </form>
+
+
+        <br><br>
+
+
+        <!-- Languages -->
+
+        <p>
+            Google offered in:
+
+            <a href="#">हिन्दी</a>
+            <a href="#">বাংলা</a>
+            <a href="#">తెలుగు</a>
+            <a href="#">मराठी</a>
+            <a href="#">தமிழ்</a>
+        </p>
+
+    </main>
+
+
+    <br><br><br><br>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <hr>
+
+        <p>India</p>
+
+        <hr>
+
+        <a href="#">Advertising</a> |
+        <a href="#">Business</a> |
+        <a href="#">Privacy</a> |
+        <a href="#">Terms</a> |
+        <a href="#">Settings</a>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+        function searchGoogle(event) {
+
+            event.preventDefault();
+
+            let query =
+                document.getElementById("searchBox").value;
+
+            if (query.trim() === "") {
+
+                alert("Please enter something to search.");
+
+                return;
+            }
+
+            window.location.href =
+                "https://www.google.com/search?q=" +
+                encodeURIComponent(query);
+        }
+
+
+        function feelingLucky() {
+
+            let query =
+                document.getElementById("searchBox").value;
+
+            if (query.trim() === "") {
+
+                alert("Please enter something first.");
+
+                return;
+            }
+
+            window.location.href =
+                "https://www.google.com/search?q=" +
+                encodeURIComponent(query);
+        }
+
+    </script>
+
+</body>
+
+</html>

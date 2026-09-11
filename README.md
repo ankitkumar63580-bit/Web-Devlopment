@@ -29,7 +29,7 @@ This project was built using the following technologies:
 *(Add screenshots or GIFs of your working project here)*
 | Home Page | Dashboard |
 | :---: | :---: |
-| ![Home](link-to-home-image.png) | ![Dashboard](link-to-dashboard-image.png) |
+| ![Home](dekstop.png) | ![Dashboard](/storage/emulated/O/Pictures/03ha16RCqZ64EtoKnaGqOhx-5..v1569486877.jpg.png) |
 
 ---
 

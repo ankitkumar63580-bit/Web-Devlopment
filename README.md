@@ -24,15 +24,6 @@ This project was built using the following technologies:
 
 ---
 
-## 📸 Screenshots
-
-*(Add screenshots or GIFs of your working project here)*
-| Home Page | Dashboard |
-| :---: | :---: |
-| ![Home](dekstop.png) | ![Dashboard](/storage/emulated/O/Pictures/03ha16RCqZ64EtoKnaGqOhx-5..v1569486877.jpg.png) |
-
----
-
 ## ⚙️ Installation & Setup
 
 Follow these steps to run the project locally on your machine:
